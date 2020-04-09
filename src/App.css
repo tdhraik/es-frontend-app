@@ -3,14 +3,22 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  text-align: center;
+  color: black;
+  width: 9em;
+  padding-left: 0.5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.data-grid {
+  padding-top: 100px;
+}
+
+.footer-grid {
+  width: 80px;
+}
+
+.baseBackground{
+  background-color: rgba(26,26,26,.75) !important;
 }
 
 .App-header {
@@ -22,6 +30,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.footer {
+  color: white;
+}
+
+.section-dark-blue {
+  background-color: #0F3A51;
 }
 
 .App-link {
